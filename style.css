@@ -1,0 +1,892 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.home{
+    width: 100%;
+    background-image: url(img/bpr.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo{
+    align-items: left;
+    float: left;
+}
+
+.logocoloring{
+    color: #fbffff;
+    font-size: 4.5rem;
+    font-family: 'speedy', sans-serif;
+    margin-left: 3rem;
+    float: left;
+    margin-top: 2rem;
+}
+
+.portcoloring{
+    color: #1f51fe;
+    font-size: 4.5rem;
+    font-family: 'speedy', sans-serif;
+    padding-top: 2rem;
+}
+
+.header{
+    position: fixed;
+}
+
+.menubar {
+    margin-top: -3rem;
+    margin-left: 30rem;
+    display: flex;
+    font-size: 2rem;
+    font-family: 'speedy', sans-serif;
+    float: left;
+    font-weight: bold;
+}
+
+.menubar a{
+    margin-left: 10rem;
+    color: #1f51fe;
+    text-decoration: none;
+}
+
+.menubar a:hover{
+    color: #fbffff;
+}
+
+.hometab{
+    float: left;
+}
+
+
+.checkbtn{
+    font-size: 2rem;
+    margin-top: -3.5rem;
+    display: none;
+}
+
+.intro{
+    text-align: left;
+    font-family: 'speedy', sans-serif;
+    margin-right: 72rem;
+    float: right;
+    margin-top: 30rem;
+}
+
+.hello{
+    font-size: 3.5rem;
+    color: #fbffff;
+}
+
+.name{
+    font-size: 4.5rem;
+    color: #1f51fe;
+}
+
+.intro_body{
+    color: #fbffff;
+    font-size: 2rem;
+}
+
+.socialicons{
+    display: flex;
+    gap: 3rem;
+}
+
+.programmer_text{
+    color: #1f51fe;
+}
+.iam{
+    color: #fbffff;
+    font-size: 4.5rem;
+}
+
+.about{
+    padding-top: 4rem;
+    width: 100%;
+    background-color: #23272e;
+    height: auto 40vh;/* 290vh; */
+    font-family: 'speedy', sans-serif;
+}
+
+.aboutme{
+    margin-right: 43rem;
+    text-align: right;
+}
+
+.heading{
+    color: #fbffff;
+    font-size: 4.5rem;
+}
+
+.heading2{
+    color: #1f51fe;
+    font-size: 4.5rem;
+}
+
+.paragraphofaboutme{
+    color: #fbffff;
+    text-align: left;
+}
+
+.about img{
+    float: right;
+    margin-right: 10rem;
+    margin-top: 5rem;
+}
+
+.white-my{
+    color: #fbffff;
+    font-size: 4.5rem;
+}
+
+.blue-skill{
+    color: #1f51fe;
+    font-size: 4.5rem;
+}
+
+.skills{
+    margin-top: 7rem;
+}
+
+.headingskills{
+    text-align: right;
+    float: left;
+    margin-left: 4rem;
+    font-weight: bold;
+}
+
+.main-skillsbar{
+    margin-top: 10rem;
+    margin-left: 12rem;
+}
+
+.main-skillsbar h2{
+    color:#fbffff;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-bar{
+    background-color: #959595;
+    width: 60%;
+    height: 1rem;
+    border-radius: 0.5rem;
+}
+
+.progress-bar div{
+    height: 1rem;
+    border-radius: 0.5rem;
+    width: 0%;
+}
+
+.progress-bar div span{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    margin-top: -1.5rem;
+    margin-right: -2rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+
+.html{
+    background: #e44d26;
+    /* width: 50%; */
+    animation: html 1s linear forwards;
+}
+
+.css{
+    background: #2299f8;
+    /* width: 41%; */
+    animation: css 1s linear forwards;
+}
+
+.python{
+    background: #ffe873;
+    /* width: 85%; */
+    animation: python 1s linear forwards;
+}
+
+/* .java{
+    background: #f89820;
+    animation: java 1s linear forwards;
+}
+
+.js{
+    background: #f0db4f;
+    animation: js 1s linear forwards;
+}
+
+.c{
+    background: #659ad2;
+    animation: c 1s linear forwards;
+}
+
+.cp{
+    background: #00599c;
+    animation: cp 1s linear forwards;
+}
+
+.cs{
+    background: #004482;
+    animation: cs 1s linear forwards;
+}
+
+.sql{
+    background: #e38c00;
+    animation: sql 1s linear forwards;
+} */
+
+.html span{
+    background: #e44d26;
+}
+
+.css span{
+    background: #2299f8;
+}
+
+.python span{
+    background: #ffe873;
+}
+
+/* .java span{
+    background: #f89820;
+}
+
+.js span{
+    background: #f0db4f;
+}
+
+.c span{
+    background: #659ad2;
+}
+
+.cp span{
+    background: #00599c;
+}
+
+.cs span{
+    background: #004482;
+}
+
+.sql span{
+    background: #e38c00;
+} */
+
+@keyframes html {
+    100%{
+        width: 50%;}
+}
+
+@keyframes css {
+    100%{
+        width: 41%;}
+}
+@keyframes python {
+    100%{
+        width: 85%;
+    }
+}
+
+/* @keyframes java {
+    100%{
+        width: 10%;
+    }
+}
+
+@keyframes js {
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes c {
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes cp {
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes cs {
+    100%{
+        width: 85%;
+    }
+}
+
+@keyframes sql {
+    100%{
+        width: 85%;
+    }
+}
+ */
+.main-skillsbar h3{
+    font-weight: 40rem;
+    font-size: 3.5rem;
+    color: #fbffff;
+}
+
+.heading-of-projects{
+    text-align: right;
+    float: left;
+    margin-left: 4rem;
+    font-weight: bold;
+}
+
+.pro-heading{
+    color: #fbffff;
+    font-size: 4.5rem;
+}
+
+.jects-heading{
+    color: #1f51fe;
+    font-size: 4.5rem;
+}
+
+.container{
+    float: left;
+    margin-left: 12rem;
+    margin-top: 8rem;
+    display: flex;
+}
+
+.contact{
+    margin-top: 50rem;
+    /* float: left; */
+    margin-left: 4rem;
+}
+
+.contact p{
+    float: left;
+    /* margin-top: 2rem; */
+    color: #fbffff;
+    /* font-size: 2.8rem; */
+}
+
+.contact form{
+    margin-top: 4rem;
+}
+
+.contact input{
+    color: #fbffff;
+    display: flex;
+    padding-left: 4rem;
+    font-family: 'speedy', sans-serif;
+    outline: none;
+    background: #333;
+    width: 50%;
+    border-radius: 4rem;
+    height: 4rem;
+}
+
+textarea{
+    color: #fbffff;
+    margin: 1rem;
+    padding-top: 0.5rem;
+    padding-left: 4rem;
+    font-family: 'speedy', sans-serif;
+    outline: none;
+    background: #333;
+    width: 50%;
+    border-radius: 3.5rem;
+    height: 23.8rem;
+}
+
+.contact button{
+    margin-left: 0rem;
+    font-family: 'speedy', sans-serif;
+    color: #000;
+    outline: none;
+    width: 12.5%;
+    height: 4rem;
+    border-radius: 4rem;
+    background: #1f51fe;
+}
+
+.contact button:hover{
+    opacity: 80%;
+}
+
+.contacthead{
+    margin-top: 4rem;
+    /* text-align: right; */
+    float: left;
+    font-weight: bold;
+}
+
+.contact-heading{
+    color: #fbffff;
+    font-size: 4.5rem;
+}
+
+.me-heading{
+    color: #1f51fe;
+    font-size: 4.5rem;
+}
+
+.contact h4{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #fbffff;
+}
+
+.blueconct{
+    font-size: 3.5rem;
+    color: #fbffff;
+}
+
+.contactinfobox{
+    margin-top: -53.5rem;
+    margin-left: 92rem;
+}
+
+.contactinfobox .icon1{
+    width: 6rem;
+    height: 6rem;
+    background: #1f51fe;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.contactinfobox .text h3{
+    color: #1f51fe;
+    font-size: 2.8rem;
+}
+
+.contactsocial{
+    margin-top: 2rem;
+    margin-left: 0rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.icons:hover{
+    opacity: 80%;
+}
+
+.footer{
+    margin-top: 11rem;
+    width: 100%;
+    color: #fbffff;
+    background-color: #222;
+    height: auto;
+    font-family: 'speedy', sans-serif;
+}
+
+.footer h2{
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+
+.footer a{
+    margin-left: 4rem;
+    text-decoration: #fbffff;
+    color: #fbffff;
+}
+
+.footer .pt{
+    margin-top: 1rem;
+}
+
+.copyright{
+    margin-top: 13rem; 
+    margin-left: 1.5rem;
+    text-align: center;
+    color: #fbffff;
+}
+
+.smft{
+    float: left;
+    margin-left: 20rem;
+    margin-top: -8rem;
+}
+
+.sm{
+    float: left;
+    margin-left: 20rem;
+    margin-top: -8rem;
+}
+
+.footer p{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.footer a:hover{
+    color: #1f51fe;
+}
+
+@media (max-width: 1369px) {
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .intro{
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 1315px) {
+    .contactinfobox{
+        margin-left: 70rem;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .icon{
+        align-items: normal;
+    }
+
+    .portcoloring{
+        margin-left: 15.5rem;
+        padding-top: -2rem;
+    }
+
+    .bp{
+        margin-left: 4rem;
+    }
+
+    .menubar{
+        display: none;
+    }
+
+    .intro{
+        margin-left: 8rem;
+        text-justify: auto;
+    }
+
+    .socialicons{
+        margin-top: 0rem;
+    }
+
+    .main{
+        margin-right: 0rem;
+        padding-right: 0rem;
+    }
+
+    .intro_body{
+        font-size: 1.5rem;
+    }
+
+    .container{
+        gap: 0rem;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container{
+        margin-left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contacthead{
+        margin-top: 60rem;
+        margin-left: -65rem;
+    }
+
+    .contact .mqp{
+        margin-top: 55rem;
+    }
+}
+
+@media (max-width: 1250px) {
+    .socialicons{
+        margin-top: -2rem;
+    }
+}
+
+@media (max-width: 1194px) {
+    .socialicons{
+        margin-top: -1.5rem;
+    }
+
+    .intro{
+        margin-top: 20rem;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .contactinfobox{
+        margin-left: 60rem;
+    }
+
+}
+
+@media (max-width: 1048px) {
+    .footer{
+        height: 70vh;
+    }
+
+    .smft{
+        margin:0;
+    }
+
+    .sm{
+        margin: 0;
+    }
+}
+
+@media (max-width: 1008px) {
+    
+    .intro{
+        margin-right: 50rem;
+        justify-content: left;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .checkbtn{
+        margin-left: 98rem;
+    }
+
+    .intro{
+        margin-left: 4rem;
+    }
+    
+    .socialicons{
+        padding-top: -40rem;
+    }
+
+    .contactinfobox{
+        margin-left: 55rem;
+    }
+}
+
+@media (max-width: 947px) {
+    
+    .contactinfobox{
+        margin-left: 50rem;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .checkbtn{
+        margin-left: 90rem;
+    }
+
+    .intro{
+        margin-left: 4rem;
+    }
+
+    .socialicons{
+        padding-top: -40rem;
+    }
+
+
+
+    .aboutme .paragraphofaboutme{
+        text-align: center;
+        justify-content: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .intro{
+        margin-left: 4rem;
+    }
+
+    .socialicons{
+        padding-top: -40rem;
+    }
+
+    .main-skillsbar{
+        margin-left: 4rem;
+        width: 120%;
+    }
+
+    .container{
+        padding-top: 0rem;
+    }
+
+    .contact input{
+        width: 80%;
+    }
+
+    textarea{
+        width: 80%;
+    }
+
+    .contact button{
+        width: 30%;
+    }
+
+    .contactinfobox{
+        display: none;
+    }
+}
+
+@media (max-width: 841px) {
+    .intro{
+        margin-top: 10rem;
+    }
+    .contacthead{
+        margin-left: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .blueconct{
+        display: none;
+    }
+
+    .contact{
+        margin: 0;
+    }
+
+    .mqp{
+        margin-top: 0rem;
+        margin-left: 2rem;
+        margin-bottom: 150rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 804px) {
+
+    .intro{
+        margin-right: 40rem;
+    }
+
+}
+
+@media (width: 721px) {
+    .container{
+        margin-left: 2rem;
+    }
+
+    .home{
+        height: 112vh;
+    }
+}
+
+@media (max-width: 694px) {
+
+    .intro{
+        margin-right: 30rem;
+    }
+
+}
+
+@media (max-width: 670px) {
+
+    .aboutme{
+        margin-right: 4rem;
+    }
+
+    .hid{
+        display: none;
+    }
+}
+
+@media (max-width: 617px) {
+    .footer{
+        height: 75vh;
+    }
+}
+
+@media (max-width: 595px) {
+
+    .intro{
+        margin-right: 20rem;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .intro{
+        margin-right: 10rem;
+    }
+
+}
+
+@media (max-width: 395px) {
+
+    .intro{
+        margin-right: 5rem;
+    }
+
+}
+
+@media (max-width: 321px) {
+    .container{
+        margin-left: 4rem;
+    }
+    .container img{
+        width: 200px;
+    }
+    .intro{
+        margin-top: 10rem;
+    }
+    .skills h3{
+        margin-left: -2rem;
+    }
+
+    .contact button{
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 342px) {
+
+    .intro{
+        margin-right: 2rem;
+    }
+
+}
+
+@media (max-width: 428px) {
+    .footer{
+        height: 80vh;
+    }
+}
+
+@media (max-width: 281px) {
+
+    .intro{
+        margin-right: 0rem;
+        margin-left: 2rem;
+    }
+
+}
