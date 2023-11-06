@@ -852,9 +852,7 @@ textarea{
     .container{
         margin-left: 4rem;
     }
-    .container img{
-        width: 200px;
-    }
+    
     .intro{
         margin-top: 10rem;
     }
@@ -879,6 +877,16 @@ textarea{
 @media (max-width: 428px) {
     .footer{
         height: 80vh;
+    }
+
+    .container img{
+        width: 200px;
+    }
+
+    .container{
+        margin-left: 7rem;
+        padding: 0;
+        align-items: center;
     }
 }
 
