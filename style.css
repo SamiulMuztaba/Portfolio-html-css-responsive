@@ -31,7 +31,7 @@ body{
 .logocoloring{
     color: #fbffff;
     font-size: 4.5rem;
-    font-family: 'speedy', sans-serif;
+    font-family:  sans-serif;
     margin-left: 3rem;
     float: left;
     margin-top: 2rem;
@@ -40,7 +40,7 @@ body{
 .portcoloring{
     color: #1f51fe;
     font-size: 4.5rem;
-    font-family: 'speedy', sans-serif;
+    font-family:  sans-serif;
     padding-top: 2rem;
 }
 
@@ -53,7 +53,7 @@ body{
     margin-left: 30rem;
     display: flex;
     font-size: 2rem;
-    font-family: 'speedy', sans-serif;
+    font-family: sans-serif;
     float: left;
     font-weight: bold;
 }
@@ -81,7 +81,7 @@ body{
 
 .intro{
     text-align: left;
-    font-family: 'speedy', sans-serif;
+    font-family:  sans-serif;
     margin-right: 72rem;
     float: right;
     margin-top: 30rem;
@@ -104,6 +104,8 @@ body{
 
 .socialicons{
     display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
     gap: 3rem;
 }
 
@@ -120,7 +122,7 @@ body{
     width: 100%;
     background-color: #23272e;
     height: auto 40vh;/* 290vh; */
-    font-family: 'speedy', sans-serif;
+    font-family: sans-serif;
 }
 
 .aboutme{
@@ -374,6 +376,9 @@ body{
     margin-left: 12rem;
     margin-top: 8rem;
     display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /* gap: 1em; */
 }
 
 .contact{
@@ -397,7 +402,7 @@ body{
     color: #fbffff;
     display: flex;
     padding-left: 4rem;
-    font-family: 'speedy', sans-serif;
+    font-family:  sans-serif;
     outline: none;
     background: #333;
     width: 50%;
@@ -410,7 +415,7 @@ textarea{
     margin: 1rem;
     padding-top: 0.5rem;
     padding-left: 4rem;
-    font-family: 'speedy', sans-serif;
+    font-family: sans-serif;
     outline: none;
     background: #333;
     width: 50%;
@@ -420,7 +425,7 @@ textarea{
 
 .contact button{
     margin-left: 0rem;
-    font-family: 'speedy', sans-serif;
+    font-family:  sans-serif;
     color: #000;
     outline: none;
     width: 12.5%;
@@ -496,7 +501,7 @@ textarea{
     color: #fbffff;
     background-color: #222;
     height: auto;
-    font-family: 'speedy', sans-serif;
+    font-family:  sans-serif;
 }
 
 .footer h2{
@@ -562,6 +567,14 @@ textarea{
     }
 }
 
+@media (max-width: 1320px) {
+
+    .mqp{
+        margin-top: 25rem;
+    }
+
+}
+
 @media (max-width: 1300px) {
 
     .icon{
@@ -615,12 +628,12 @@ textarea{
     }
 
     .contacthead{
-        margin-top: 60rem;
+        margin-top: 65rem;
         margin-left: -65rem;
     }
 
     .contact .mqp{
-        margin-top: 55rem;
+        margin-top: 60rem;
     }
 }
 
@@ -844,7 +857,7 @@ textarea{
 
 }
 
-@media (max-width: 395px) {
+@media (max-width: 460px) {
 
     .intro{
         margin-right: 5rem;
@@ -852,13 +865,38 @@ textarea{
 
 }
 
+@media (max-width: 395px) {
+
+    .intro{
+        margin-right: 3rem;
+    }
+
+}
+
+/* @media (max-width: 385px) {
+
+    .intro{
+        margin-right: 0rem;
+    }
+
+} */
+
+@media (max-width: 342px) {
+
+    .intro{
+        margin-right: 2rem;
+    }
+
+}
+
 @media (max-width: 321px) {
     .container{
-        margin-left: 4rem;
+        margin-left: 3rem;
     }
     
     .intro{
         margin-top: 10rem;
+        margin-right: 10rem;
     }
     .skills h3{
         margin-left: -2rem;
@@ -870,13 +908,7 @@ textarea{
 
 }
 
-@media (max-width: 342px) {
 
-    .intro{
-        margin-right: 2rem;
-    }
-
-}
 
 @media (max-width: 428px) {
     .footer{
@@ -896,9 +928,13 @@ textarea{
 
 @media (max-width: 281px) {
 
+    .container{
+        margin-left: 2rem;
+    }
+
     .intro{
         margin-right: 0rem;
-        margin-left: 2rem;
+        margin-left: 0rem;
     }
 
 }
